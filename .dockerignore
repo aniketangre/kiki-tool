@@ -1,0 +1,26 @@
+# Exclude everything not needed inside the container
+
+# Legacy source folder (src/ is used instead)
+scripts/
+
+# Training data (not needed at runtime)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Notebooks
+notebooks/
+
+# Git and IDE
+.git/
+.vscode/
+.idea/
+.claude/
+
+# Legacy model
+trained_models/

@@ -1,0 +1,5 @@
+# This folder stores the trained model file (extra_trees_model.pkl)
+# and the normalizer file (normalizer.csv).
+#
+# These files are generated when you run:
+#   python scripts/models/train.py

@@ -1,0 +1,16 @@
+# requirements.txt
+# Install all dependencies with:  pip install -r requirements.txt
+
+# Data handling
+numpy>=1.23
+pandas>=1.5
+openpyxl>=3.1          # Required by pandas to read .xlsx files
+
+# Machine learning
+scikit-learn>=1.3
+
+# API
+fastapi>=0.110
+uvicorn>=0.29          # ASGI server to run the FastAPI app
+pydantic>=2.0          # Data validation for FastAPI request/response schemas
+gradio>=4.0            # Browser-based UI mounted at /ui
