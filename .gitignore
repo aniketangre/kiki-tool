@@ -16,8 +16,10 @@ __pycache__/
 *.joblib
 trained_models/
 
-# Data
-data/
+# Data (raw source files and generated outputs — not source code)
+/data/
+#data/raw/
+#data/processed/
 
 # Scripts
 scripts/
